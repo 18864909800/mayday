@@ -1,0 +1,136 @@
+.faq-one {
+    padding: 0 0 120px;
+    position: relative;
+
+    &__bg {
+        position: absolute;
+        bottom: 4%;
+        right: 0;
+    }
+    .container {
+        position: relative;
+        @media (min-width: 992px) {
+            max-width: 920px;
+        }
+    }
+}
+
+.faq-accrodion {
+
+    .accrodion {
+        position: relative;
+        transition: all .4s ease;
+
+        &:before {
+            content: '';
+            position: absolute;
+            top: -2px;
+            bottom: -2px;
+            left: 0px;
+            right: 0px;
+            border-radius: 7px;
+            transform: scaleX(0);
+            background-image: linear-gradient(0deg, #ff4eb5 0%, #ffa065 100%);
+            transition: transform .4s ease;
+        }
+
+
+        +.accrodion {
+            margin-top: 20px;
+        }
+
+        &.active {
+            box-shadow: 0px 20px 60px 0px rgba(244, 151, 190, 0.3);
+            .accrodion-inner {
+                margin: 0 2px;
+            }
+
+            &:before {
+                transform: scaleX(1);
+            }
+
+            .accrodion-title:before {
+                content: '\f068';
+                color: #ff4eb5;
+            }
+
+            .accrodion-title {
+                padding-bottom: 0;
+            }
+
+            .accrodion-title h4 {
+                color: #ff4eb5;
+            }
+        }
+
+        .accrodion-inner {
+            background-color: #fff;
+            padding: 32px 0;
+            border-style: solid;
+            border-width: 1px;
+            border-color: rgb(239, 239, 239);
+            border-radius: 7px;
+            position: relative;
+            transition: all .4s ease;
+
+        }
+
+        .accrodion-title {
+
+            padding: 0px 40px;
+            cursor: pointer;
+            position: relative;
+            transition: all .4s ease;
+
+
+
+            @media(max-width: 375px) {
+                padding-right: 50px;
+            }
+
+            &:before {
+                content: '\f067';
+                font-family: 'FontAwesome';
+                font-size: 14px;
+                color: $thm-black;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                top: 50%;
+                right: 40px;
+                transform: translateY(-50%);
+            }
+
+            h4 {
+                margin: 0;
+                color: $thm-black;
+                font-size: 18px;
+                font-weight: 500;
+
+                @media(max-width: 375px) {
+                    line-height: 1.4em;
+                }
+            }
+        }
+
+        .accrodion-content {
+
+
+            .inner {
+                padding: 0 40px;
+                padding-top: 25px;
+                padding-bottom: 0px;
+            }
+
+            p {
+                margin: 0;
+                color: #74727a;
+                font-size: 16px;
+                line-height: 30px;
+            }
+        }
+    }
+
+}

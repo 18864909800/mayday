@@ -1,0 +1,150 @@
+.cta-one {
+    padding: 165px 0;
+    position: relative;
+
+
+    &__bg {
+        position: absolute;
+        bottom: 4%;
+        right: 0;
+    }
+
+    .container {
+        position: relative;
+
+        &:before {
+            content: '';
+            width: 448px;
+            height: 448px;
+            border-radius: 50%;
+            background-color: #f6fff7;
+            position: absolute;
+            top: -19%;
+            left: -12%;
+        }
+    }
+
+    &__moc {
+        position: absolute;
+        top: -45px;
+        left: -10%;
+        animation: featureImgBounce 5s ease-in-out 0s infinite alternate;
+    }
+
+    .block-title {
+        margin-bottom: 0;
+        margin-top: 30px;
+        margin-bottom: 45px;
+    }
+
+    .block-title__title {
+        letter-spacing: -.04em;
+    }
+
+    &__icon {
+        font-size: 62px;
+        color: #ff4eb5;
+    }
+
+    &__text {
+        p {
+            margin: 0;
+            color: #74727a;
+            font-size: 24px;
+            line-height: 40px;
+        }
+    }
+
+    ul {
+        margin: 0;
+        margin-top: 45px;
+        margin-bottom: 50px;
+
+        li {
+            position: relative;
+            font-size: 16px;
+            color: #74727a;
+            padding-left: 30px;
+
+            +li {
+                margin-top: 3px;
+            }
+
+            i {
+                font-size: 18px;
+                color: #ffa065;
+                position: absolute;
+                top: 50%;
+                left: 0;
+                transform: translateY(-50%);
+            }
+        }
+    }
+
+    .thm-btn {
+        padding: 18px 55.5px;
+    }
+}
+
+.cta-two {
+    padding: 120px 0;
+    background-color: #fefbf4;
+
+    .container {
+        position: relative;
+    }
+
+    &__moc {
+        position: absolute;
+        top: -40px;
+        right: -35px;
+        animation: featureImgBounce 5s ease-in-out 0s infinite alternate;
+    }
+
+    .block-title {
+        margin-top: 30px;
+        margin-bottom: 35px;
+    }
+
+    .block-title__title {
+        letter-spacing: -.04em;
+    }
+
+
+    &__icon {
+        font-size: 62px;
+        color: #ffa065;
+    }
+
+    &__text {
+        margin-bottom: 50px;
+
+        p {
+            margin: 0;
+            color: #74727a;
+            font-size: 18px;
+            line-height: 34px;
+
+            +p {
+                margin-top: 35px;
+            }
+        }
+    }
+
+    .thm-btn {
+        padding: 18px 55.5px;
+    }
+}
+
+
+@keyframes featureImgBounce {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+
+    100% {
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px)
+    }
+}

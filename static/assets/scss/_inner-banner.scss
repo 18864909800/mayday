@@ -1,0 +1,52 @@
+.inner-banner {
+    position: relative;
+    background-color: #fff;
+    background-image: url(../images/background/inner-banner-bg-1-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding-top: 245px;
+    padding-bottom: 120px;
+
+    &__title {
+        text-align: center;
+        line-height: 1em;
+        font-size: 46px;
+        font-weight: 400;
+        color: #fff;
+        margin: 0;
+        margin-top: 10px;
+    }
+}
+
+
+.thm-breadcrumb {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    li {
+        font-size: 18px;
+        font-weight: 400;
+
+        a {
+            color: #ffffff;
+            transition: all .4s ease;
+
+            &:hover {
+                color: $thm-base-color-2;
+            }
+        }
+
+        +li {
+            &::before {
+                content: '.';
+                color: #fff;
+                margin-left: 15px;
+                margin-right: 15px;
+
+            }
+        }
+    }
+}

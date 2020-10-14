@@ -1,0 +1,77 @@
+.app-shot-one {
+    padding-top: 120px;
+    padding-bottom: 115px;
+
+    position: relative;
+
+    &__bg {
+        position: absolute;
+        bottom: 25%;
+        left: 0;
+    }
+
+    .container-fluid {
+        max-width: 1595px;
+        width: 100%;
+        position: relative;
+    }
+
+    .app-shot-one__carousel {
+        padding-top: 100.5px;
+        padding-bottom: 100.5px;
+        margin-top: -20px;
+
+        &:before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -49%) scaleY(1.0);
+            background-image: url(../images/app-shots/app-screen-moc.png);
+            background-position: center center;
+            background-repeat: no-repeat;
+            width: 423px;
+            height: 739px;
+
+            @media(max-width: 1440px) {
+                transform: translate(-50%, -49%) scaleY(.95);
+            }
+
+            @media(max-width: 1280px) {
+                transform: translate(-50%, -49%) scale(.8);
+            }
+        }
+
+        .owl-dots {
+            position: absolute;
+            bottom: -80px;
+            left: 0;
+            text-align: center;
+            z-index: 10;
+            width: 100%;
+
+            .owl-dot {
+                span {
+                    width: 7px;
+                    height: 7px;
+                    background-color: #1c1d3f;
+                    transform: scale(1);
+                    opacity: 0.2;
+                    margin: 0 3px;
+                    transition: transform .4s ease, opacity .4s ease, background .4s ease;
+                }
+
+                &:hover span,
+                &.active span {
+                    opacity: 1;
+                    background-color: #1bc9f4;
+                    transform: scale(1.285);
+                }
+            }
+        }
+    }
+
+    .owl-item img {
+        transition: transform .4s ease;
+    }
+}
