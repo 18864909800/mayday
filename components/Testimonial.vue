@@ -1,38 +1,58 @@
 <template>
-  <section class="testimonials-one">
+  <section class="testimonials-one" id="testimonial">
     <div class="container">
       <div class="block-title text-center">
-        <h2 class="block-title__title">What Our <span>Clients</span> Say <br> About Us.</h2><!-- /.block-title__title -->
+        <h2 class="block-title__title">五月天<span>团员</span> 介绍 <br> </h2><!-- /.block-title__title -->
       </div><!-- /.block-title -->
       <div class="testimonials-one__carousel-outer">
         <div class="testimonials-one__carousel owl-carousel owl-theme">
           <div class="item">
             <div class="testimonials-one__single">
               <div class="testimonials-one__inner">
-                <p>This is due to their excellent service, competitive pricing and <br> customer support. It’s throughly refresing to get such a personal <br> touch. Duis aute irure dolor in reprehenderit.</p>
-                <h3>Shirley Smith</h3>
-                <span>Our Customers</span>
-                <img src="/assets/images/resources/testi-1-1.png" alt="Awesome Image" />
+                <p>1975年12月6日生于台北市北投区，中国台湾男歌手、词曲创作人，中国台湾摇滚乐团五月天的主唱，创意潮牌STAYREAL总裁。 <br> </p>
+                <h3>陈信宏</h3>
+                <span>主唱</span>
+                <img src="/assets/images/resources/ashin.jpg" alt="Awesome Image" />
               </div><!-- /.testimonials-one__inner -->
             </div><!-- /.testimonials-one__single -->
           </div><!-- /.item -->
           <div class="item">
             <div class="testimonials-one__single">
               <div class="testimonials-one__inner">
-                <p>This is due to their excellent service, competitive pricing and <br> customer support. It’s throughly refresing to get such a personal <br> touch. Duis aute irure dolor in reprehenderit.</p>
-                <h3>Shirley Smith</h3>
-                <span>Our Customers</span>
-                <img src="/assets/images/resources/testi-1-1.png" alt="Awesome Image" />
+                <p>1976年11月28日出生于中国台湾新竹市，五月天团长兼吉他手、作曲人、演员。毕业于台北师大附中、国立台湾大学社会系肄业。 <br> <br></p>
+                <h3>怪兽</h3>
+                <span>团长</span>
+                <img src="/assets/images/resources/monster.jpg" alt="Awesome Image" />
               </div><!-- /.testimonials-one__inner -->
             </div><!-- /.testimonials-one__single -->
           </div><!-- /.item -->
           <div class="item">
             <div class="testimonials-one__single">
               <div class="testimonials-one__inner">
-                <p>This is due to their excellent service, competitive pricing and <br> customer support. It’s throughly refresing to get such a personal <br> touch. Duis aute irure dolor in reprehenderit.</p>
-                <h3>Shirley Smith</h3>
-                <span>Our Customers</span>
-                <img src="/assets/images/resources/testi-1-1.png" alt="Awesome Image" />
+                <p>1977年4月25日出生于中国台湾高雄市，是乐团五月天的贝斯手、作曲人，毕业于台北师大附中、辅仁大学社会系肄业。任陶晶莹经营网站《姊妹淘》之专栏作家。 <br> <br> </p>
+                <h3>玛莎</h3>
+                <span>贝斯手</span>
+                <img src="/assets/images/resources/MatthewTsai.jpg" alt="Awesome Image" />
+              </div><!-- /.testimonials-one__inner -->
+            </div><!-- /.testimonials-one__single -->
+          </div><!-- /.item -->
+          <div class="item">
+            <div class="testimonials-one__single">
+              <div class="testimonials-one__inner">
+                <p>1975年12月11日生于中国台湾台北市，五月天吉他手，也是一名作曲人、演员，毕业于师大附中、淡江大学水环系肄业。主要作品有《如烟》、《仓颉》等。<br> <br></p>
+                <h3>石头</h3>
+                <span>吉他手</span>
+                <img src="/assets/images/resources/stone.jpg" alt="Awesome Image" />
+              </div><!-- /.testimonials-one__inner -->
+            </div><!-- /.testimonials-one__single -->
+          </div><!-- /.item -->
+          <div class="item">
+            <div class="testimonials-one__single">
+              <div class="testimonials-one__inner">
+                <p>1973年7月28日生于台湾苗栗，中国台湾摇滚乐团五月天的鼓手。1999年加入五月天乐团，担任鼓手。现有两个女儿，小玫瑰和小蔷薇，一家人幸福甜蜜。<br> <br></p>
+                <h3>冠佑</h3>
+                <span>鼓手</span>
+                <img src="/assets/images/resources/lauming.jpg" alt="Awesome Image" />
               </div><!-- /.testimonials-one__inner -->
             </div><!-- /.testimonials-one__single -->
           </div><!-- /.item -->

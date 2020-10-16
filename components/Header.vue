@@ -5,7 +5,7 @@
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="logo-box clearfix">
           <a class="navbar-brand" href="/">
-            <img src="/assets/images/resources/logo-dark.png" class="main-logo" width="119" alt="Awesome Image" />
+            <img src="/assets/images/favicons/图片2.jpg" class="main-logo" style="margin-left: 31px" width="39" alt="Awesome Image" />
           </a>
           <button class="menu-toggler" data-target=".main-navigation">
             <span class="fa fa-bars"></span>
@@ -14,9 +14,9 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="main-navigation">
           <ul class=" one-page-scroll-menu navigation-box">
-          
+
             <li class="current scrollToLink">
-              <a href="/">Home</a>
+              <a href="/">首页</a>
 
             </li>
             <li class="scrollToLink">
@@ -24,17 +24,17 @@
 
             </li>
             <li class="scrollToLink">
-              <a href="#video">Video</a>
+              <a href="#video">mv</a>
 
             </li>
             <li class="scrollToLink">
-              <a href="#pricing">Pricing</a>
+              <a href="#testimonial">团员介绍</a>
             </li>
             <li class="scrollToLink">
-              <a href="#screenshots">App Screenshots</a>
+              <a href="#screenshots">专辑展示</a>
             </li>
             <li class="scrollToLink">
-              <a href="#news">News</a>
+              <a href="#news">新闻</a>
               <ul class="sub-menu">
                 <li><nuxt-link to="/blog">News Page</nuxt-link></li>
                 <li><nuxt-link to="/blog-details">News Details</nuxt-link></li>
@@ -42,9 +42,9 @@
             </li>
           </ul>
         </div><!-- /.navbar-collapse -->
-        <div class="right-side-box">
-          <a class="thm-btn header__cta-btn" href="#"><span>Login</span></a>
-        </div><!-- /.right-side-box -->
+<!--        <div class="right-side-box">-->
+<!--          <a class="thm-btn header__cta-btn" href="#"><span>Login</span></a>-->
+<!--        </div>&lt;!&ndash; /.right-side-box &ndash;&gt;-->
       </div>
       <!-- /.container -->
     </nav>
