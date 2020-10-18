@@ -12,10 +12,10 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/assets/images/favicons/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: '/assets/images/favicons/ico.jpg' },
       { rel: 'apple-touch-icon', sizes:'180x180', href: '/assets/images/favicons/apple-touch-icon.png' },
-      { rel: 'icon', type: 'image/png', sizes:'32x32', href: '/assets/images/favicons/favicon-32x32.png' },
-      { rel: 'icon', type: 'image/png', sizes:'16x16', href: '/assets/images/favicons/favicon-16x16.png' },
+      { rel: 'icon', type: 'image/png', sizes:'32x32', href: '/assets/images/favicons/32.jpg' },
+      { rel: 'icon', type: 'image/png', sizes:'16x16', href: '/assets/images/favicons/16.jpg' },
       {
         rel: "stylesheet",
         href:

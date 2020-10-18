@@ -19,10 +19,7 @@
               <a href="/">首页</a>
 
             </li>
-            <li class="scrollToLink">
-              <a href="#features">Features</a>
 
-            </li>
             <li class="scrollToLink">
               <a href="#video">mv</a>
 
@@ -34,17 +31,13 @@
               <a href="#screenshots">专辑展示</a>
             </li>
             <li class="scrollToLink">
-              <a href="#news">新闻</a>
-              <ul class="sub-menu">
-                <li><nuxt-link to="/blog">News Page</nuxt-link></li>
-                <li><nuxt-link to="/blog-details">News Details</nuxt-link></li>
-              </ul><!-- /.sub-menu -->
+
+              <nuxt-link to="/blog">新闻</nuxt-link>
+
             </li>
           </ul>
         </div><!-- /.navbar-collapse -->
-<!--        <div class="right-side-box">-->
-<!--          <a class="thm-btn header__cta-btn" href="#"><span>Login</span></a>-->
-<!--        </div>&lt;!&ndash; /.right-side-box &ndash;&gt;-->
+
       </div>
       <!-- /.container -->
     </nav>

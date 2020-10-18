@@ -2,7 +2,6 @@
   <div>
     <Header />
     <Banner />
-    <Features />
     <Video />
     <Testimonial />
     <Brands />
@@ -13,7 +12,6 @@
 <script>
   import Header from "~/components/Header.vue";
   import Banner from "~/components/Banner.vue";
-  import Features from "~/components/Features.vue";
   import Video from "~/components/Video.vue";
   import Testimonial from "~/components/Testimonial.vue";
   import Brands from "~/components/Brands.vue";
@@ -24,7 +22,6 @@
     components: {
       Header,
       Banner,
-      Features,
       Video,
       Testimonial,
       Brands,

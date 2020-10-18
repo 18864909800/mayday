@@ -12,10 +12,10 @@
         <div class="col-xl-6 col-lg-8">
           <div class="banner-one__content">
 
-            <h3 class="banner-one__title">加入 <br> <span>五月天</span> 永远 <br> 不会太迟.</h3><!-- /.banner-one__title -->
-            <p class="banner-one__text">此网站将发布五月天的大量信息 </p>
+            <h3 class="banner-one__title">加入 <br> <span>五月天</span> 永远 <br>  不会太迟.</h3><!-- /.banner-one__title -->
+            <p class="banner-one__text"> 此网站分享五月天的信息 </p>
             <!-- /.banner-one__text -->
-           
+
           </div><!-- /.banner-one__content -->
         </div><!-- /.col-lg-6 -->
       </div>

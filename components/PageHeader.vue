@@ -6,7 +6,7 @@
     <span class="banner-two__shape-4"></span>
     <div class="container">
       <ul class="list-unstyled thm-breadcrumb">
-        <li><a href="/">Home</a></li>
+        <li><a href="/">首页</a></li>
         <li class="active"><a href="#">{{ title}}</a></li>
       </ul><!-- /.list-unstyled -->
       <h2 class="inner-banner__title">{{ title}}</h2><!-- /.inner-banner__title -->

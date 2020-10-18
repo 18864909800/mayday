@@ -1,26 +1,26 @@
 <template>
   <div>
-    <HeaderTwo />
-    <PageHeader title="Blog Details" />
+    <Header />
+    <PageHeader title="新闻详情" />
     <BlogDetails />
     <Footer />
   </div>
 </template>
 <script>
-  import HeaderTwo from "~/components/HeaderTwo.vue";
+  import Header from "~/components/Header.vue";
   import PageHeader from "~/components/PageHeader.vue";
   import BlogDetails from "~/components/BlogDetails.vue";
   import Footer from "~/components/Footer.vue";
   export default {
     components: {
-      HeaderTwo,
+      Header,
       PageHeader,
       BlogDetails,
       Footer
     },
     head(){
       return {
-        title: "Dimon | Blog Details"
+        title: "Mayday | 新闻 Details"
       }
     }
   }

@@ -5,37 +5,25 @@
         <div class="col-lg-8">
           <div class="blog-one__single">
             <div class="blog-one__image">
-              <img src="/assets/images/blog/blog-d-1-1.jpg" alt="">
+              <img src="/assets/images/blog/1000.jpg" alt="">
 
             </div><!-- /.blog-one__image -->
             <div class="blog-one__content">
               <ul class="list-unstyled blog-one__meta">
                 <li><a href="#">By Admin</a></li>
-                <li><a href="#">22 Oct, 2019</a></li>
+                <li><a href="#">10/16, 2020</a></li>
                 <li><a href="#">2 Comments</a></li>
               </ul><!-- /.list-unstyled -->
               <h3 class="blog-one__title">
-                Pre and post launch mobile app marketing pitfalls to avoid
+                五月天跨年演唱会传不在高雄！地点曝光 黄牛已开代购
               </h3><!-- /.blog-one__title -->
-              <p class="blog-one__text">There are many variations of passages of available but majority have
-                alteration in some by inject humour or random words. There are many variations of passages
-                of Lorem Ipsum available, but the majority have suffered alteration in some form, by
-                injected humour, or randomised words which don't look even slightly believable. If you are
-                going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing
-                hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat
-                predefined chunks as necessary, making this the first true generator on the Internet. It
-                uses a dictionary of over 200 Latin words, combined with a handful of model sentence
-                structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is
-                therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+              <p class="blog-one__text">继张惠妹（阿妹）宣布将在家乡台东举办跨年演唱会，梁静茹也在12月底于小巨蛋开唱，紧接着1月2日则是王心凌，
+                几个年底指标性演出几乎都已出炉，而每年都会留在台湾跨年的五月天，今年是否照常开唱也让粉丝相当关注；原本盛传五月天将在高雄开唱，
+                还有人猜测在台南，不过近期却传出再度移师回桃园棒球场举行。</p>
               <!-- /.blog-one__text -->
-              <p class="blog-one__text">It is a long established fact that a reader will be distracted by the
-                readable content of a page when looking at its layout. The point of using Lorem Ipsum is
-                that it has a more-or-less normal distribution of letters, as opposed to using 'Content
-                here, content here', making it look like readable English. Many desktop publishing packages
-                and web page editors now use Lorem Ipsum as their default model text, and a search for
-                'lorem ipsum' will uncover many web sites still in their infancy. Various versions have
-                evolved over the years, sometimes by accident, sometimes on purpose injected humour and the
-                like.</p><!-- /.blog-one__text -->
+              <p class="blog-one__text">原来是有黄牛已在网络上开放预约代购五月天跨年演唱会，地点直接写着是在桃园棒球场，连票价都出炉，
+                当时曾让不少粉丝议论纷纷；事实上，今年台北跨年再度由替五月天制作演唱会的必应创造承接，因此五月天也极有可能会循着去年跨年模式，
+                在台北演出后再赶往桃园跨年。</p><!-- /.blog-one__text -->
 
             </div><!-- /.blog-one__content -->
           </div><!-- /.blog-one__single -->
@@ -61,71 +49,6 @@
                 aliquet.</p>
             </div><!-- /.blog-details__content -->
           </div><!-- /.blog-details__author -->
-          <h2 class="blog-details__content-title">2 Comments</h2><!-- /.blog-details__content-title -->
-          <div class="comment-one">
-            <div class="comment-one__single">
-              <div class="comment-one__image">
-                <div class="inner-block">
-                  <img src="/assets/images/blog/comment-1-1.jpg" alt="Awesome Image">
-                </div><!-- /.inner-block -->
-              </div><!-- /.comment-one__image -->
-              <div class="comment-one__content">
-                <div class="comment-one__content-top">
-                  <div class="comment-one__top-left">
-                    <h3 class="comment-one__author">Laquanda Bachmeier</h3>
-                    <!-- /.comment-one__author -->
-                    <p class="comment-one__date">20 April, 2019 <span class="comment-one__date-sep">.</span> 4:00 pm</p>
-                    <!-- /.comment-one__date -->
-                    <p class="comment-one__text">Lorem Ipsum is simply dummy text of the rinting and
-                      typesetting been the industry standard dummy text ever sincer condimentum purus.
-                      In non ex at ligula fringilla lobortis et not the aliquet.</p>
-                    <!-- /.comment-one__text -->
-                  </div><!-- /.comment-one__top-left -->
-                  <div class="comment-one__top-right">
-                    <a href="#" class="thm-btn comment-one__reply"><span>Reply</span></a>
-                  </div><!-- /.comment-one__top-right -->
-                </div><!-- /.comment-one__content-top -->
-              </div><!-- /.comment-one__content -->
-            </div><!-- /.comment-one__single -->
-            <div class="comment-one__single">
-              <div class="comment-one__image">
-                <div class="inner-block">
-                  <img src="/assets/images/blog/comment-1-2.jpg" alt="Awesome Image">
-                </div><!-- /.inner-block -->
-              </div><!-- /.comment-one__image -->
-              <div class="comment-one__content">
-                <div class="comment-one__content-top">
-                  <div class="comment-one__top-left">
-                    <h3 class="comment-one__author">Vicente Elmore</h3><!-- /.comment-one__author -->
-                    <p class="comment-one__date">20 April, 2019 <span class="comment-one__date-sep">.</span> 4:00 pm</p>
-                    <!-- /.comment-one__date -->
-                    <p class="comment-one__text">Lorem Ipsum is simply dummy text of the rinting and
-                      typesetting been the industry standard dummy text ever sincer condimentum purus.
-                      In non ex at ligula fringilla lobortis et not the aliquet.</p>
-                    <!-- /.comment-one__text -->
-                  </div><!-- /.comment-one__top-left -->
-                  <div class="comment-one__top-right">
-                    <a href="#" class="thm-btn comment-one__reply"><span>Reply</span></a>
-                  </div><!-- /.comment-one__top-right -->
-                </div><!-- /.comment-one__content-top -->
-              </div><!-- /.comment-one__content -->
-            </div><!-- /.comment-one__single -->
-          </div><!-- /.comment-one -->
-          <h2 class="blog-details__content-title">Leave a Comment</h2><!-- /.blog-details__content-title -->
-          <form action="#" class="reply-form">
-            <div class="row">
-              <div class="col-lg-6">
-                <input type="text" placeholder="Your name" class="reply-form__field">
-              </div><!-- /.col-lg-6 -->
-              <div class="col-lg-6">
-                <input type="text" placeholder="Enter email" class="reply-form__field">
-              </div><!-- /.col-lg-6 -->
-              <div class="col-lg-12">
-                <textarea placeholder="Write message" class="reply-form__field"></textarea>
-                <button class="reply-form__btn thm-btn" type="submit"><span>Submit Comment</span></button>
-              </div><!-- /.col-lg-12 -->
-            </div><!-- /.row -->
-          </form><!-- /.reply-form -->
         </div><!-- /.col-lg-8 -->
         <div class="col-lg-4">
           <div class="sidebar">
