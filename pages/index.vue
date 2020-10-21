@@ -5,7 +5,7 @@
     <Video />
     <Testimonial />
     <Brands />
-    <Screenshots />
+    <Screenshots /> 
     <Footer />
   </div>
 </template>

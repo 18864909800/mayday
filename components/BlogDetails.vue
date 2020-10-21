@@ -40,13 +40,13 @@
           </div><!-- /.share-block -->
           <div class="blog-details__author">
             <div class="blog-details__author-image">
-              <img src="/assets/images/blog/author-1-1.jpg" alt="Awesome Image">
+              <img src="/assets/images/blog/12.jpg" alt="Awesome Image">
             </div><!-- /.blog-details__image -->
             <div class="blog-details__author-content">
-              <h3>Christine Eve</h3>
-              <p>Lorem Ipsum is simply dummy text of the rinting and typesetting been the industry standard
-                dummy text ever sincer condimentum purus. In non ex at ligula fringilla lobortis et not the
-                aliquet.</p>
+              <h3>阿信</h3>
+              <p>当 <br>我和世界不一样<br>
+                那就让我不一样<br>
+                坚持对我来说就是以刚克刚</p>
             </div><!-- /.blog-details__content -->
           </div><!-- /.blog-details__author -->
         </div><!-- /.col-lg-8 -->

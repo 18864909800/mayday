@@ -17,12 +17,10 @@
 
             <li class="current scrollToLink">
               <a href="/">首页</a>
-
             </li>
 
             <li class="scrollToLink">
               <a href="#video">mv</a>
-
             </li>
             <li class="scrollToLink">
               <a href="#testimonial">团员介绍</a>
@@ -53,7 +51,7 @@
         $(window).on('scroll', function () {
           // checks if window is scrolled more than 500px, adds/removes solid class
           if ($(this).scrollTop() > 60) {
-            $('.stricky').addClass('original');
+            $('.stricky').addClass('origin al');
             $('.stricky').addClass('stricked-menu');
           } else {
             $('.navbar').removeClass('original');
